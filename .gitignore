@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore temporary image formats (optional)
+images/*.svg
+images/*.pdf
+
+# Allow standard image formats (they will be included)
+# .png and .jpg are not ignored
