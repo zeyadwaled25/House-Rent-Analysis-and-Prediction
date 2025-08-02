@@ -36,10 +36,9 @@ The goal is to predict rent prices based on features like BHK, Size, Bathroom, a
 ```
 📦 House-Rent-Prediction
 │
-├── 📂 data/
-│   └── House_Rent_Dataset.csv
-├── 📜 main.ipynb
-├── 📜 requirements.txt
+├── 📂 images/
+├── 📜 House_Rent_Dataset.csv
+├── 📜 Rental-Price-Regression.ipynb
 └── 📜 README.md
 ```
 
@@ -64,22 +63,6 @@ Each model was evaluated using:
 - ✅ Encoding categorical features  
 - ✅ Feature scaling (StandardScaler, MinMaxScaler, etc.)  
 - ✅ SMOTE (if needed)
-
----
-
-## 🚀 How to Run
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/zeyadwaled25/House-Rent-Prediction.git
-cd House-Rent-Prediction
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Jupyter notebook
-jupyter notebook
-```
 
 ---
 
